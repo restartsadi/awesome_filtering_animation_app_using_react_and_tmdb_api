@@ -16,7 +16,7 @@ export default function Filter({
       movie.genre_ids.includes(activeGenre)
     );
     setFiltered(filtered);
-  }, [activeGenre, setFiltered, popular]);
+  }, [activeGenre]);
   return (
     <div className="filter-container">
       <button
